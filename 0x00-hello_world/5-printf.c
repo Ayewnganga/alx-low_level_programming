@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Result: Always 0 (Succes)
+ * Result: Always 0
  */
 
 int main(void)
