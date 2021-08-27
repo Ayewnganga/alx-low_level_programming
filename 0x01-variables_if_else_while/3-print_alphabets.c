@@ -7,16 +7,18 @@
  */
 int main(void)
 {
-char ch;
-
-ch = "a,A";
-while (ch <= "z,Z")
+char a;
+ 
+for (a= 'a'; a <= 'z'; a++)
 {
-putchar(ch);
-ch++;
+putchar(a);
 }
-putchar('\n');
+for (a = 'A'; a <= 'Z'; a++)
+{
+putchar(a);
+}
+
+ putchar('\n');
 
 return (0);
-  
 }
