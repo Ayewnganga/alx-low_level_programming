@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int=a-z
+  int=(a-z)
 
     putchar("print alphabet in lowercase\n", a-z);
 
