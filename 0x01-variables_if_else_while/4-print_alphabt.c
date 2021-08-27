@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main alphabets in lowercase
+ * main - alphabets in lowercase
  *
  * Return: Always 0
  */
@@ -18,6 +18,5 @@ putchar(alpha);
 alpha++;
 }
 putchar('\n');
-
 return (0);	 
 }
