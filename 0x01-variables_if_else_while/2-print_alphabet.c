@@ -1,10 +1,21 @@
 #include <stdio.h>
 
+/**
+ * main - prints the lowercase alphabet followed by a newline
+ *
+ * Return: returns 0
+ */
 int main(void)
 {
-  int=(a-z)
+char ch;
 
-    putchar("print alphabet in lowercase\n", a-z);
+ch = 'a';
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
+}
+putchar('\n');
 
-  return (0);
+return (0);
 }
