@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- * main - putchar loops
+ * main - Print holberton
  *
- * Retrun: Always 0 (success)
+ * Retrun: Always (0)
  */
 int main(void)
 {
 char *c = "Holberton";
 int i;
+for (i = 0; i < 10; i++)
 
-for ( i = 0; i < 10; i++) 
 {
 _putchar(c[i]);
 }
 _putchar('\n');
 
-return 0;
+return (0);
+
 }
 
