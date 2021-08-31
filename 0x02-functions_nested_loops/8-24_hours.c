@@ -21,7 +21,7 @@ for (m = 0; m < 60; m++)
 if (h < 10)
 {
 _putchar('0');
-_putcahr(h + '0');
+_putchar(h + '0');
 }
 else if (h >= 10)
 {
