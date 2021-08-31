@@ -42,7 +42,7 @@ putchar(result + '0');
 				putchar(',');
 				putchar(',');
 			}
-
-			putchar('\n');
 }
-	}
+putchar('\n');
+}
+}
