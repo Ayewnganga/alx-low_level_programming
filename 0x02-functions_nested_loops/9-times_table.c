@@ -13,7 +13,7 @@ void times_table(void)
 	int ones;
 	int result;
 
-for (tens = 0; tens <= 9; ones++)
+for (tens = 0; tens <= 9; tens++)
 
 {
 
@@ -40,7 +40,7 @@ putchar(result + '0');
 			if (ones != 9)
 			{
 				putchar(',');
-				putchar(',');
+				putchar(' ');
 			}
 }
 putchar('\n');
