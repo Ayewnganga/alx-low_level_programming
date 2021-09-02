@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * positive_or_negative - tests function that prints if interger is positive or negative
+ * main - tests function that prints if interger is positive or negative
  *
  * Return: 0
  */
 
-int positive_or_negative(int i)
+int main(void)
 {
 	int i;
 
