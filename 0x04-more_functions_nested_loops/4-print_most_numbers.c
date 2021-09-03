@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * print_most_numbers - print numbers from 0 to 9 exept 2 and 4
  *
