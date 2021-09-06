@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdout.h>
+#include <unistd.h>
 
 /**
  * _puts - printing a string
