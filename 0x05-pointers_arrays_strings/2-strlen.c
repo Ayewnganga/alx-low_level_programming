@@ -2,11 +2,11 @@
 
 /**
  * _strlen - lenght of a string
- *
+ *@s: pointer
  * Return: int length
  */
 
-int _strlen(cahr *s)
+int _strlen(char *s)
 {
 	int i = 0;
 
