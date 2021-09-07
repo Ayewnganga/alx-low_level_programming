@@ -14,4 +14,17 @@ void puts_half(char *str)
 
 	while (str[length] != o)
 		length++;
+
+	odd_even = length % 2 == 0
+		? length / 2
+		: (length - 1) / 2;
+
+	if (length % 2 == 0)
+		for (i = 0; i < odd_even; i++)
+			_putchar(str[odd_even + i]);
+	else
+		for (i = 1; i <= odd_even; i++)
+			_putchar(str[odd_even + i]);
+
+	_putchar('\n');
 }
