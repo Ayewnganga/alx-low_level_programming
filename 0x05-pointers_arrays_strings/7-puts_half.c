@@ -9,7 +9,8 @@
 
 void puts_half(char *str)
 {
-	int length 0;
+	int length = 0;
+	int odd_even;
 	int i;
 
 	while (str[length] != o)
