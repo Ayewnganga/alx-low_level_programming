@@ -13,7 +13,7 @@ void puts_half(char *str)
 	int odd_even;
 	int i;
 
-	while (str[length] != o)
+	while (str[length] != 0)
 		length++;
 
 	odd_even = length % 2 == 0
