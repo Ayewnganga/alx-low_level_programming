@@ -2,18 +2,20 @@
 
 /**
  *reverse_array - reversing the content of an array
- *@a: integer
- *@n: array number of elements
- *
- * Return:
+ *@a: array
+ *@n: elements number in array
  */
 
 void reverse_array(int *a, int n)
 {
-	int i = 0;
+	int tmp, bin = 0;
+	int usr = n - 1;
 
-	while (i < n)
+	while (bin < usr)
 	{
-
+		tmp = *(a + bin);
+		*(a + bin) = *(a + usr);
+		*(a + usr) = tmp;
+		bin++, usr--;
 	}
 }
