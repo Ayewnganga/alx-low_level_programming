@@ -4,7 +4,7 @@
  **cap_string - capitalizing all words of a string
  *@s: string manipulate
  *
- *Return: word of a string being capitalized
+ *Return: string
  */
 
 char *cap_string(char *s)
@@ -22,7 +22,7 @@ char *cap_string(char *s)
 				 s[i - 1] == '!' || s[i - 1] == '?' || s[i - 1] == '"'
 				 s[i - 1] == '(' || s[i - 1] == ')' || s[i - 1] == '{'
 				 s[i - 1] == '}' || s[i - 1] == ' ' || s[i - 1] == '\t'
-				 s[i - 1] == '\n'))
+				 || s[i - 1] == '\n'))
 			s[i] = s[i] - 'a' + 'A';
 		i++;
 	}
