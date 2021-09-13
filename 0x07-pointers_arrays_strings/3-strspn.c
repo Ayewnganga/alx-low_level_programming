@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- *int_strspn - length of a prefix substring
+ *_strspn - length of a prefix substring
  *@s: string
  *@accept: value
  *
  *Return: number of bytes in the initial segment
  */
 
-unsigned int_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0, j;
 	int m = 0;
