@@ -25,4 +25,12 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  * Return: a pointer to dest
  */
 
+char *_strchr(char *s, char c);
+/**
+ *_strchr - function that locates a character in a string
+ *@s: string
+ *@c: character
+ *Return: pointer to the character in string
+ */
+
 #endif
