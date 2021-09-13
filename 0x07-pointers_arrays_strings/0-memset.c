@@ -11,7 +11,7 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int size = n;
+	int size = n; /* accept only positive sizes */
 
 	if (size > 0)
 	{
