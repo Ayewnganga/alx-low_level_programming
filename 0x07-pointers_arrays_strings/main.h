@@ -33,4 +33,12 @@ char *_strchr(char *s, char c);
  *Return: pointer to the character in string
  */
 
+unsigned int _strspn(char *s, char *accept);
+/*
+ * int _strspn - length of a prefix substring
+ * @s: string
+ * @accept: value
+ * Return: number of bytes in the initial segment
+ */
+
 #endif
