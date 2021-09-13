@@ -55,6 +55,14 @@ char *_strstr(char *haystack, char *needle);
  * @haystack: pointers string
  * @needle: pointer of the substring
  * Return: pointer too the begining of the located substring
- */ 
+ */
+
+void print_chessboard(char (*a)[8]);
+/**
+ * print_chessboard - function that prints the chessboard
+ * @a: pointer
+ *
+ * Return: 0
+ */
 
 #endif
