@@ -65,4 +65,11 @@ void print_chessboard(char (*a)[8]);
  * Return: 0
  */
 
+void print_diagsums(int *a, int size);
+/**
+ * print_diagsums - function that prints the sum of the two diagonals of a square matrix of integers
+ * @a: matrix
+ * @size: size of matrix
+ */ 
+
 #endif
