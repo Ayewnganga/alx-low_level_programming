@@ -41,4 +41,12 @@ unsigned int _strspn(char *s, char *accept);
  * Return: number of bytes in the initial segment
  */
 
+char *_strpbrk(char *s, char *accept);
+/**
+ * _strpbrk - function that searches a string for any set of bytes
+ * @s: pointer to the string
+ * @accept: pointer to the string of size
+ * Return: pointer to the byte 
+ */
+
 #endif
