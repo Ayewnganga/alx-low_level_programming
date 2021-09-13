@@ -35,7 +35,7 @@ char *_strchr(char *s, char c);
 
 unsigned int _strspn(char *s, char *accept);
 /*
- * int _strspn - length of a prefix substring
+ * _strspn - length of a prefix substring
  * @s: string
  * @accept: value
  * Return: number of bytes in the initial segment
