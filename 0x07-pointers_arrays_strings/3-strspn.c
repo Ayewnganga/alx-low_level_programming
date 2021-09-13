@@ -25,7 +25,7 @@ unsigned int_strspn(char *s, char *accept)
 			if (accept[j + 1] == '\0' && s[i] != accept[j])
 				return (m);
 		}
-		i++
+		i++;
 	}
 	return (m);
 }
