@@ -68,8 +68,13 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 /**
  * print_diagsums - function that prints the sum of the two diagonals of a square matrix of integers
- * @a: matrix
- * @size: size of matrix
- */ 
+ * @a:string
+ */
+
+void set_string(char **s, char *to);
+/**
+ * @s: variable of type pointer
+ * @to: character
+ */
 
 #endif
