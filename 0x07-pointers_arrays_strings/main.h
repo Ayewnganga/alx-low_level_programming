@@ -49,4 +49,12 @@ char *_strpbrk(char *s, char *accept);
  * Return: pointer to the byte 
  */
 
+char *_strstr(char *haystack, char *needle);
+/**
+ * _strstr - function that locates a substring
+ * @haystack: pointers string
+ * @needle: pointer of the substring
+ * Return: pointer too the begining of the located substring
+ */ 
+
 #endif
