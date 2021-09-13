@@ -7,4 +7,6 @@ char *memcpy(char *dest, char *src, unsigned int n);
 
 char *_strchr(char *s, char c);
 
+unsigned int_strspn(char *s, char *accept);
+
 #endif
