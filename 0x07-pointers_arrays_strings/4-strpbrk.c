@@ -1,31 +1,25 @@
 #include "main.h"
 
 /**
- *_strpbrk - length of a prefix substring
- *@s: string
- *@accept: value
+ * _strpbrk - searching a string for any set of bytes
+ * @s: pointer string
+ * @accept: pointer string of searched size
  *
- *Return: pointer to the byte
+ * Return: a pointer to the byte in the string
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int i = 0, j;
-	int m = 0;
+	unsigned int i, j;
 
-	while (s[i] != '\0')
+	for (i = 0; s[i] > '\0'; i++)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		for (j = 0; accept[j] > '\0'; j++)
 		{
 			if (s[i] == accept[j])
-			{
-				m++;
-				break;
-			}
-			if (accept[j + 1] == '\0' && s[i] != accept[j])
-				return (m);
+				return (s + i);
 		}
-		i++;
+
 	}
-	return (m);
+	return (0);
 }
