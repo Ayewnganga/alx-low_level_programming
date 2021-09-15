@@ -10,7 +10,6 @@
 
 int find_root(int n, int root)
 {
-	if (n == root)
 	{
 		return (root);
 	}
