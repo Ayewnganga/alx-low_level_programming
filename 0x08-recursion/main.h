@@ -15,4 +15,6 @@ int _pow_recursion(int x, int y);
 
 int _sqr_recursion(int n);
 
+int find_root(int n, int root)
+
 #endif
