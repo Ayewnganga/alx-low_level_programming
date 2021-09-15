@@ -17,4 +17,8 @@ int _sqr_recursion(int n);
 
 int find_root(int n, int root);
 
+int is_prime_number(int n);
+
+int is_prime(int n, int divisor);
+
 #endif
