@@ -21,4 +21,10 @@ int is_prime_number(int n);
 
 int is_prime(int n, int divisor);
 
+int is_palindrome(char *s);
+
+int compare(char *head, char *tail);
+
+int _strlen(char *s);
+
 #endif
