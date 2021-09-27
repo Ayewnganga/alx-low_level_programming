@@ -1,5 +1,5 @@
-#ifndef LIKE_MARCO_H
-#define LIKE_MARCO_H
+#ifndef FUNCTION_LIKE_MARCO
+#define FUNCTION_LIKE_MARCO
 
 #define ABS(x) (((x) < 0) ? (-x) : (x))
 
