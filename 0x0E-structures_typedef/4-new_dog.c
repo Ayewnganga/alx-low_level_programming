@@ -1,7 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 
 /**
- * new_dog - function that creates a new dog
+ * len - find length of string
+ * @str: string
  *
+ * Return: length
  */
+int len(char *str)
+{
+	int i;
+
+	for (i = 0; *(str + i); i++)
+		;
+	return (i);
+}
+
