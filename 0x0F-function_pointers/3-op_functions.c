@@ -1,3 +1,5 @@
+#include "calc.h"
+
 /**
  * op_add - add
  * @a: integer
