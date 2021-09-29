@@ -1,5 +1,5 @@
-#ifndef 3-CALC_H
-#define 3-CALC_H
+#ifndef _CALC_H
+#define _CALC_H
 
 /**
  * struct op - struct op
@@ -12,7 +12,7 @@ typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
-} op_t
+} op_t;
 
 /*functions to choose from 5 different operations*/
 int op_add(int a, int b);
