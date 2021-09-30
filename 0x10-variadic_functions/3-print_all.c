@@ -59,12 +59,11 @@ void print_all(const char * const format, ...)
 	int i, j = 0;
 	va_list valist;
 
-	datatype choice[] = {
-		{'c', print_char},
+	datatype choice[] = { {'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
 		{'s', print_string},
-		{'\0', NULL} };
+		{'\0' NULL} };
 
 	va_start(valist, format);
 	while (format != NULL && format[j] != '\0')
