@@ -8,7 +8,7 @@
  *
  * Return: 0 success
  */
-int _exit(int error, char *s, int fd)
+int __exit(int error, char *s, int fd)
 {
 	switch (error)
 	{
