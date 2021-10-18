@@ -8,7 +8,7 @@
  * Return: actual size read and printed
  */
 
-ssize read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	ssize_t n_read, n_wrote;
