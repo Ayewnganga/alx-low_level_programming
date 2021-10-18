@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _exit - prints error messages
+ * __exit - prints error messages
  * @error: num is either exit value or file desc
  * @s: str is a name, either of the two filenames
  * @fd: file desc
